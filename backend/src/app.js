@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 //db_connect();
 app.get("/",(req,res)=>{
-  res.send("hello world by rkishan");
+  res.send("hello world by rkishan😎😎😎😎");
 })
 app.use('/',UserRoutes);
 
